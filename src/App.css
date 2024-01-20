@@ -1,0 +1,23 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.apod {
+    width: min(100%, 300px);
+    position: relative !important;
+}
+
+.favoriteBtn {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.favoriteIcon {
+    color: #FFFF00;
+    background-color: rgba(85, 85, 85, 0.5);
+    border-radius: 50%;
+    padding: 0.25rem;
+}
